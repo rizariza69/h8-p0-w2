@@ -1,0 +1,37 @@
+1.
+STORE "m" with 600
+STORE "a" with 2
+
+CALCULATE "m" times "a"
+SET "f" value with calculation result
+
+DISPLAY "f"
+
+2.
+STORE "kabisat"
+
+IF "habis dibagi 4" dan "tidak habis dibagi 100"
+  ELSE IF "habis dibagi 4" and "habis dibagi 100" and "habis dibagi 400"
+
+DISPLAY "kabisat"
+
+3.
+
+STORE "machineWashing" = 0
+STORE "clothes" = 20
+
+WHILE "washingMachine" < 20
+  ADD "clothes" by 1
+
+DISPLAY "turnOnWashingMachine"
+
+4.
+STORE "students" = 0
+
+WHILE "inspection" < 40
+  ADD "students" by 1
+
+IF"longNail"
+  DO "punish"
+ELSE
+  DO "praise"
